@@ -18,6 +18,9 @@ class Home extends React.Component {
     addTweet () {
         const blocks = this.state.blocks;
         blocks.push(<TweetBlock />);
+        setTimeout(() => {
+            window.scrollTo(0, document.body.scrollHeight)
+        }, 250);
         return this.setState({ blocks });
     }
 
@@ -43,12 +46,12 @@ class Home extends React.Component {
                     </div>
                     <p className="home__text">Total Tweets: {this.state.blocks.length}</p>
                     <p className="home__text">Total Characters: {this.state.totalChars}</p>
-                    <button className="home__add-tweet" onClick={ this.addTweet }>+ Add Tweet</button>
                     {
                         this.state.blocks.map((_block, index) => {
                             return <TweetBlock key={index} num={index+1} addTotalChar={this.charCount} />
                         })
                     }
+                    <button className="home__add-tweet" onClick={ this.addTweet }>+ Add Tweet</button>
                 </main>
             </>
         )

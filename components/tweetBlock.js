@@ -31,7 +31,7 @@ class TweetBlock extends React.Component {
         const inputLength = event.target.value.length;
         this.setState({ charCount: inputLength });
 
-        if (this.state.charCount >= 140) {
+        if (this.state.charCount >= 240) {
             this.setState({ countColor: 'yellow' });
         }
 
