@@ -1,0 +1,55 @@
+.tweet-block {
+    border-left: 2px solid var(--twitter-blue);
+    margin: 50px auto;
+    max-width: 500px;
+    padding: 0px 15px 15px 15px;
+}
+
+.tweet-block__bottom {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tweet-block__char-count--green {
+    color: green;
+}
+
+.tweet-block__char-count--yellow {
+    color: orange;
+}
+
+.tweet-block__char-count--red {
+    color: red;
+}
+
+.tweet-block__textarea {
+    background-color: #fafafa;
+    border: 1px solid var(--border-light);
+    color: #303030;
+    font-size: 1.1rem;
+    line-height: 1.7;
+    min-height: 200px;
+    min-width: 300px;
+    padding: 5px;
+    width: 100%;
+}
+
+.tweet-block__textarea:focus {
+    outline: 1px solid var(--twitter-blue);
+}
+
+.tweet-block__copy-btn {
+    background-color: #50BB50;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 10px 1rem;
+}
+
+.tweet-block__toast .content div {
+    color: #50BB50;
+    font-size: 1rem;
+    font-weight: lighter;
+    vertical-align: bottom;
+}

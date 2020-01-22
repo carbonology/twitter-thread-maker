@@ -1,0 +1,40 @@
+:root {
+    --black: #000000;
+    --white: #FFFFFF;
+    --gold: #F7C500;
+    --faded-gold: #f7c596;
+    --faded: rgb(148, 148, 148);
+    --gray: #636363;
+    --grey: #636363;
+    --copy-color: #000;
+    --border-light: #E8E8E8;
+    --twitter-blue: rgb(27, 149, 224);
+
+    --font-decorative: "Bebas Neue", Arial, sans-serif;
+    --font-main: "Noto Sans HK", Arial, sans-serif;
+    --font-copy: "Noto Sans HK", Arial, sans-serif;
+
+    --copy-size: 1.15rem;
+    --very-small: .8rem;
+    --small: 1rem;
+    --med: 1.3rem;
+    --big: 3rem;
+    --very-big: 4.5rem;
+    --huge: 5rem;
+
+    --resp-flex-direction: row;
+}
+
+@media (max-width: 700px) {
+    :root {
+        --copy-size: 21px;
+        --very-small: .8rem;
+        --small: 1rem;
+        --med: 1.2rem;
+        --big: 3rem;
+        --very-big: 3.5rem;
+        --huge: 4rem;
+        
+        --resp-flex-direction: column;
+    }
+}
