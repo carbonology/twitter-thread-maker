@@ -1,5 +1,5 @@
 const globals = {
-    website: "https://www.plutosocial.io"
+    website: "https://twitter-thread-maker.now.sh"
 }
 
 export default globals;
