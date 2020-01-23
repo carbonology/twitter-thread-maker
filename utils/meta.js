@@ -25,8 +25,7 @@ export default (props) => {
             twitter={{
                 handle: '@crbnlgy',
                 site: '@site',
-                cardType: 'summary_large_image',
-                image: props.img
+                cardType: 'summary_large_image'
             }}
         />
     )

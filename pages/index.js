@@ -34,7 +34,7 @@ class Home extends React.Component {
                 <Meta
                     pageTitle="Twitter Thread Maker"
                     description="Easily create big 'ol Twitter threads. Made by Mike Carbone."
-                    img="/images/seo.jpg"
+                    img="https://twitter-thread-maker.now.sh/images/seo.jpg"
                 />
                 <Head />
                 <main className="home wrap">
