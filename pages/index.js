@@ -41,7 +41,7 @@ class Home extends React.Component {
                     <div className="header wrap">
                         <h1 className="header__title">Twitter Thread Maker</h1>
                         <h2 className="header__byline">
-                            by <OutLink className="header__link" href="https://twitter.com/MikeCarbone">mike carbone</OutLink>
+                            by <OutLink className="header__link" href="https://twitter.com/MikeCarbone">Mike Carbone</OutLink>
                         </h2>
                     </div>
                     <p className="home__text">Total Tweets: {this.state.blocks.length}</p>
